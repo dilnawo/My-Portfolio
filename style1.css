@@ -1,0 +1,83 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family:"poppins" ;
+    align-items: center;
+}
+
+.SJS{
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(5, 5, 5);
+    
+}
+
+
+
+ul {
+    list-style: none;
+    background:rgb(66, 66, 104);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+ul li a{
+
+    display:inline;
+    padding: 20px 15px;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+    text-size-adjust:20px;
+    
+   
+    
+}
+ul li ul.dropdown{
+    width:100%;
+    position: absolute;
+ 
+  
+    
+}
+.contact{
+    background-color: rgb(217, 217, 229);
+}
+.contact h2{
+    margin-bottom: 3rem;
+    color: rgb(166, 167, 188);
+    font-size: 4vw;
+
+}
+.contact form{
+    max-width: 80rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom:3rem ;
+}
+.contact form.input-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.contact form .input-box input,
+.contact form textarea{
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: rgb(42, 42, 130);
+    background-color: rgb(247, 255, 255);
+    border-radius: 0.8rem;
+    border:0.25rem solid rgb(70, 80, 107);
+    margin:0.7rem 0;
+    resize:none;
+}
+h2{
+    text-align: center;
+}
+

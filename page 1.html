@@ -1,0 +1,131 @@
+<html>
+    <head>
+        
+        <meta charset=""UTF-8>
+        <meta name="viewport" content="width=device-width",initial-scale="1.0">
+        <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="style.css">
+        <title> Dilki Nawodya - portfolio</title>
+        <style>
+    :root {
+      --bg: #0b1020;
+      --card: #0f172a;
+      --fg: #e2e8f0;
+      --muted: #94a3b8;
+      --accent: #60a5fa;
+      --ring: #93c5fd;
+    }
+    html, body { height: 100%; }
+     body {
+      
+      background: radial-gradient(1200px 700px at 10% 10%, #0f172a 0%, #0b1020 50%, #050814 100%);
+      color: var(--fg);
+    }
+   
+    .card {
+      background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+      border: 1px solid rgba(148, 163, 184, 0.2);
+      border-radius: 24px; padding: 32px; width: min(720px, 92vw);
+      box-shadow: 0 20px 60px rgba(2,6,23,0.5), inset 0 1px 0 rgba(255,255,255,0.05);
+      backdrop-filter: blur(6px);
+    }
+   
+  
+    .socials {
+      display: flex; gap: 14px; flex-wrap: wrap;
+    
+    }
+    .socials a {
+          --size: 42px;
+      width: var(--size); height: var(--size);
+      display: inline-grid; place-items: center; text-decoration: none;
+      color: var(--fg);
+      background: rgba(148, 163, 184, 0.12);
+      border: 1px solid rgba(148, 163, 184, 0.25);
+      border-radius: 12px; transition: transform .18s ease, background .18s ease, border-color .18s ease, box-shadow .18s ease;
+      outline: none;
+      
+    }
+    .socials a:hover { transform: translateY(-2px); background: rgba(96,165,250,0.16); border-color: rgba(147,197,253,0.6); }
+    .socials a:focus-visible { box-shadow: 0 0 0 3px var(--ring); }
+    .socials svg { width: 22px; height: 22px; }
+
+   
+    @media (prefers-color-scheme: light) {
+      :root { --bg: #f8fafc; --card: #ffffff; --fg: #0f172a; --muted: #475569; --accent: #2563eb; --ring:#93c5fd; }
+      
+      .card { border-color: rgba(15,23,42,0.08); }
+      .socials a { background: #f8fafc; border-color: rgba(15,23,42,0.12); }
+    }
+  </style>
+    </head>
+    <body>
+    
+         <ul>
+            <p class="SJS"> Dilki Nawodya</p>
+            <li><a href=" file:///Users/dilkinawodya/Desktop/portfolio%20website/page%201.html">Home</a></li>
+            <li><a href=" file:///Users/dilkinawodya/Desktop/portfolio%20website/blog.html"> blog Artical</a></li>
+            <li><a href="file:///Users/dilkinawodya/Desktop/portfolio%20website/contct.html?message=I+want+#">contact</a></li>   
+        </ul>  
+        
+        
+
+        <section class="home" id="home">
+            <div class="home-img">
+               <img src="dil.JPG" alt="profile image">
+            </div>
+
+            <div class="home-content">
+                <h3> Hello Myself</h3>
+                <h1> Dilki Nawodya</h1>
+                <h3> And I'm an<span class="multiple-text"> IT Undegraduate</span></h3>
+                <br><br>
+
+                <nav class="socials" aria-label="Social links">
+    
+      <a href="https://www.instagram.com/_dil_girl__?igsh=b2s1a3Zrb2tzZWxu&utm_source=qr" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <rect x="3" y="3" width="18" height="18" rx="5" ry="5"></rect>
+          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+          <line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line>
+        </svg>
+      </a>
+
+      <a href="https://www.linkedin.com/in/dilki-nawodya-7b6452358?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4V24h-4V8zm7.5 0h3.8v2.2h.05c.53-1 1.84-2.2 3.8-2.2 4.06 0 4.81 2.67 4.81 6.14V24h-4V15.2c0-2.1 0-4.8-2.92-4.8-2.93 0-3.38 2.29-3.38 4.66V24h-4V8z" transform="translate(2)"/>
+        </svg>
+      </a>
+
+       <a href="https://www.facebook.com/share/1DtoWQ7PLG/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M22 12.07C22 6.48 17.52 2 11.93 2 6.35 2 1.87 6.48 1.87 12.07c0 5 3.66 9.13 8.44 9.93v-7.02H7.9v-2.9h2.41v-2.2c0-2.38 1.42-3.69 3.6-3.69 1.04 0 2.13.19 2.13.19v2.35h-1.2c-1.18 0-1.54.73-1.54 1.48v1.87h2.63l-.42 2.9h-2.21v7.02c4.78-.8 8.44-4.93 8.44-9.93z"/>
+        </svg>
+      </a>
+    </nav>
+      
+      
+      <br><br><br><br>
+
+                  <h3> About me </h3>
+                  <p style="align-content: center;"> I'm a passionate and dedicated individual with a love for 
+                    learning and creating. I enjoy exploring new ideas,solving problems,
+                    bringing innovative solutions to life .with a strong interest in technology and design,
+                    i aim to combine creativity with practical skills to deliver meaningful work.
+                    Outside of my proffesional journey,I value personal growth,collaboration, and making a positive
+                    impact.
+                  </p>
+        
+            </div><br><br>
+
+           
+      
+        </section>
+        
+        
+  
+
+
+
+    </body>
+</html>
